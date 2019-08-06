@@ -8,6 +8,10 @@ figure {
     
 }
 
+label {
+    padding: 15px;
+}
+
 img {
 
     display: block;
@@ -47,16 +51,31 @@ nav {
 
 table {
 
-    
+    margin-left: auto;
+    margin-right: auto; 
     border-collapse: collapse;
     border: 1px solid black;    
     background-color: rgba(189, 40, 92, 0.486);;
 }
 
+th {
+    padding: 5px;
+}
+
 td {
     text-align: center;
+    padding: 5px;
 }
 
 thead {
     font-style: bold;
+}
+
+#publish_button {
+    
+}
+
+
+footer {
+
 }
