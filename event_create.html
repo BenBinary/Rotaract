@@ -22,7 +22,7 @@
     
                 <a href="start.html" ><label>Kommende <span style="align-items: flex-end">Veranstaltungen</span></label></a>
                 <a href="./events_passed.html"><label>Vergangene Veranstaltungen</label></a>
-                <a href="./events_passed.html"><label>Vergangene Veranstaltungen</label></a>
+                <a href="./event_create.html"><label>Veranstaltung erstellen</label></a>
             </div>
         <h3>Vergangene Veranstaltungen</h3>
         <table>
@@ -31,22 +31,29 @@
                 <th>Veranstaltung</th>
                 <th>Datum</th>
                 <th>Teilnehmer</th>
-                <th>Anmelden</th>
+  
                 <th>Frist</th>
-                <th>Teilnehmerliste</th>
+           
                 <th>Optionen</th>
                 <th>Ansprechpartner</th>
             </thead>
 
             <tr>
-                <td>Floßbauen</td>
-                <td>23.08.2019</td>
-                <td>34</td>
-                <td><input type="submit" title="Anmelden" value="anmelden"></td>
-                <td>31.01.2020</td>
-                <td><a href="./teilnehmer.html">hier</a></td>
-                <td></td>
-                <td>Benedikt Kurz</td>
+                <td><input type="text" name="titel" placeholder="Veranstaltungstitel"></td>
+                <td><input type="date" min="20"  min="2020-01-01"></td>
+                <td>
+                    <input type="radio" name="teilnehmer">intern </br>
+                    <input type="radio" name="teilnehmer">extern
+                </td>
+               
+                <td><input type="date" min="20"  min="2020-01-01"></td>
+            
+                <td>
+                    <input type="text" size="10"></br>
+                    <input type="text" size="10"></br>
+                    <input type="text" size="10">
+                </td>
+                <td><input type="text" name="Ansprechpartner" placeholder="Name des Ansprechpartners"></td>
       
             </tr>
         </table>
