@@ -75,7 +75,21 @@ thead {
     
 }
 
+li + li {
+
+    list-style-type: none;
+    background-color: #bd285c ;
+
+}
+
 
 footer {
+
+    align-items: center;
+    background-color: rgba(189, 40, 92, 0.534);
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
 
 }
