@@ -12,9 +12,18 @@ nav {
 
 }
 
+nav a {
+
+    padding: 10px;
+}
+
+#subnav a {
+    padding: 10px;
+}
+
 @media screen and (max-width:480px) {
     #logo {
-        visibility: hidden;
+        display: none;
     }
 }
 

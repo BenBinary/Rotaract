@@ -1,0 +1,104 @@
+<!DOCTYPE html> 
+<html>
+
+    <head>
+        <title>Mitgliederportal von Rotaract Dortmund</title>
+        <link rel="stylesheet" href="./css/global.css">
+        <meta charset="utf-8">
+        
+    </head>
+    <body>
+        <h2>Rotaract Dortmund Buchungsportal</h2>
+
+        <figure>
+            <img src="./img/Rotaract_Logo.svg"  alt="Rotaract Logo"> 
+            
+        </figure>   
+        <nav>
+
+            <a href="./mitglieder.html" ><label>Mitglieder</label></a>
+            <a href="./start.html"><label>Veranstaltung</label></a>
+            <a href="./protocols.html"><label>Protokolle</label></a>
+            <label>Umfrage</label>
+
+
+            <a href="./login.html" ><label  >Logout</label></a>
+
+        </nav>
+
+        <div id="subnav">
+
+            <a href="start.html" ><label>Kommende <span style="align-items: flex-end">Veranstaltungen</span></label></a>
+            <a href="./events_passed.html"><label>Vergangene Veranstaltungen</label></a>
+            <a href="./events_passed.html"><label>Vergangene Veranstaltungen</label></a>
+        </div>
+
+        
+
+        <h3>Kommende Veranstaltungen</h3>
+
+        <table>
+            <thead>
+
+                <th>Veranstaltung</th>
+                <th>Datum</th>
+                <th>Teilnehmer</th>
+                <th>Anmelden</th>
+                <th>Frist</th>
+                <th>Teilnehmerliste</th>
+                <th>Optionen</th>
+                <th>Ansprechpartner</th>
+            </thead>
+
+            <tr>
+                <td>Floßbauen</td>
+                <td>23.08.2019</td>
+                <td>34</td>
+                <td><input type="submit" title="Anmelden" value="anmelden"></td>
+                <td>31.01.2020</td>
+                <td><a href="./teilnehmer.html">hier</a></td>
+                <td></td>
+                <td>Benedikt Kurz</td>
+            </tr>
+
+            <tr>
+                <td>Remondis-Betriebsbesichtigung</td>
+                <td>22.08.2019</td>
+                <td>20</td>
+                <td><input type="submit" title="Anmelden" value="anmelden"></td>
+                <td>31.01.2020</td>
+                <td><a href="./teilnehmer.html">hier</a></td>
+                <td></td>
+                <td>Sophie Charolotte Jeiter</td>
+            </tr>
+
+            <tr>
+                    <td>Ämterübergabe</td>
+                    <td>22.08.2019</td>
+                    <td>20</td>
+                    <td><input type="submit" title="Anmelden" value="anmelden"></td>
+                    <td>31.01.2020</td>
+                    <td><a href="./teilnehmer.html">hier</a></td>
+                    <td>
+                       
+                        <select name="essen">
+                            <option value="veg">vegetarisch   </option>
+                            <option value="fleisch">Fleisch   </option>
+                        </select>
+
+                    </td>
+                    <td>
+                        Tina
+                    </td>
+                </tr>
+        </table>
+
+        <footer>
+
+            &copy; 2019 by RAC Dortmund and Benedikt Kurz
+
+        </footer>
+
+
+    </body>
+</html>
