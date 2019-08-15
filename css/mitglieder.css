@@ -1,0 +1,36 @@
+nav {
+
+    display: flex;
+    flex-flow: row wrap;
+
+}
+
+#subnav {
+
+    display: flex;
+    flex-flow: row wrap;
+
+}
+
+@media screen and (max-width:480px) {
+    #logo {
+        visibility: hidden;
+    }
+}
+
+#mitglieder {
+
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    flex-flow: row wrap;
+
+}
+
+div div {
+
+    margin: 5px;
+    padding: 5px;
+    border-style: dashed;
+
+}

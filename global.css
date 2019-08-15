@@ -36,7 +36,7 @@ nav {
     text-align: center;
     background-color: #BD285C;
     color: white;
-    height: 40px;
+    height: auto;
     padding: 15px;
     font-size: 20px;
 }
@@ -45,7 +45,7 @@ nav {
     text-align: center;
     color: white;
     background-color: rgba(189, 40, 92, 0.548);
-    height: 30px;
+    height: auto;
     padding: 10px;
 }
 
@@ -85,7 +85,9 @@ li + li {
 
 footer {
 
-    align-items: center;
+
+    text-align: center;
+    
     background-color: rgba(189, 40, 92, 0.534);
     position: fixed;
     bottom: 10px;
