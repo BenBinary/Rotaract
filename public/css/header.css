@@ -1,0 +1,56 @@
+
+header {
+
+    display: grid;
+    grid-template-areas:    "a1 a2 a3"
+                            "a4 a4 a4";
+    grid-template-columns: 20% 60% 20%;
+}
+
+h2 { 
+    color:#BD285C;
+    text-align: center;
+    grid-area: a1;
+    
+}
+
+nav {
+
+    grid-area: a4;
+    text-align: center;
+    background-color: #BD285C;
+    color: white;
+    height: auto;
+    padding: 15px;
+    font-size: 20px;
+}
+
+#logo {
+
+    grid-area: a2;
+}
+
+#userstate {
+    grid-area: a3;
+    color: #BD285C;
+    font-weight: bolder;
+}
+
+@media screen and (max-width:480px) {
+    #logo {
+
+        
+        display: none;
+        
+    }
+
+    header {
+
+        display: flex;
+        flex-flow: column wrap;
+        flex-direction: column;
+        
+    }
+}
+
+
