@@ -54,3 +54,18 @@ nav {
 }
 
 
+nav:active {
+    background-color: green;
+}
+
+nav:hover {
+    color: yellow;
+}
+
+
+#username::before{
+
+    content: url('../img/user_magenta_tinytiny.png');
+
+
+}
