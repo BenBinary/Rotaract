@@ -3,35 +3,21 @@
 
     <head>
         <title>Mitgliederportal von Rotaract Dortmund</title>
-        <link rel="stylesheet" href="global.css">
+        <link rel="stylesheet" href="./css/global.css">
         <meta charset="utf-8">
         
     </head>
     <body>
-        <h2>Rotaract Dortmund Buchungsportal</h2>
 
-        <figure>
-            <img src="./Rotaract_Logo.svg"  alt="Rotaract Logo"> 
-            
-        </figure>   
-        <nav>
-
-            <a href="./mitglieder.html" ><label>Mitglieder</label></a>
-            <a href="./start.html"><label>Veranstaltung</label></a>
-            <label>Umfrage</label>
+          <%- include("includes/header.ejs")  %> 
 
 
-            <a href="./login.html" ><label  >Logout</label></a>
-
-        </nav>
-
-         
 
         <h3>Mitgieder des Rotaract Clubs Dortmund</h3>
 
        
 
-        <ul>
+        <ul id="mitgliederliste">
             <li>Philipp Poppensieker</li>
             <li>Stefanie Poppensieker</li>
             <li>Max Tischler</li>
