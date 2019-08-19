@@ -64,6 +64,11 @@ li:nth-child(even) {
 
 }
 
+h2 { 
+    color:#BD285C;
+    text-align: center;
+}
+
 
 #subnav {
     text-align: center;

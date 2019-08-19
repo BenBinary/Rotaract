@@ -15,9 +15,7 @@ app.set("views", "views");
 
 app.use(function(req, res, next) {
 
-
     const url = req.url;
-
 
     if (url === "/") {
 
@@ -36,7 +34,6 @@ app.use(function(req, res, next) {
         console.log(url.replace('/', ''));
     }
 
-    
 
 });
 

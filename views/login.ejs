@@ -18,9 +18,14 @@
 
 
         <center>
-            <p><label>Benutername</label> <input type="text" placeholder="mustermann"></p>
-            <p><label>Passwort</label> <input type="password" placeholder="password"> </p>
-            <p><input type="reset"> <input type="submit" value="Anmelden"></p>
+
+            <form method="POST" action="blub.php">
+
+                <p><label>Benutername</label> <input type="text" name="username" placeholder="mustermann"></p>
+                <p><label>Passwort</label> <input type="password" name="password" placeholder="password"> </p>
+                <p><input type="reset"> <input type="submit" value="Anmelden"></p>
+
+            </form>
         </center>
     </body>
     

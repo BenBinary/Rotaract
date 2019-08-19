@@ -1,0 +1,41 @@
+<!DOCTYPE html> 
+
+<html>
+
+    <head>
+        <title>Mitgliederportal von Rotaract Dortmund</title>
+        <link rel="stylesheet" href="./css/header.css">
+       <link rel="stylesheet" href="./css/global.css">
+        <meta charset="utf-8">
+        
+    </head>
+    <body>
+    
+       <%- include("includes/header.ejs")  %> 
+
+        <div id="subnav">
+
+            <a href="" ><label>User</label></a>
+            <a href=""><label>Veranstaltungen</label></a>
+            <a href=""><label>Protokolle</label></a>
+        </div>
+
+        <fieldset>
+            <legend>
+                Neuer Benutzer  
+            </legend>
+
+            <label for="vorname">Vorname</label> 
+            <input name="vorname" required id="vorname" placeholder="Max">
+            <br>
+            <label for="nachname">Nachname</label>
+            <input name="nachname" required id="nachname" placeholder="Musterann">
+            <br>
+            <label for="geburtstag">Geburtstag</label>
+            <input type="date" name="geburtstag" max="2002-01-01" min="1990-01-01 value="1995-01-01">
+            <br>
+            <label for="email">E-Mail Adresse</label>
+        </fieldset>
+
+    </body>
+</html>
