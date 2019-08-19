@@ -43,33 +43,18 @@
             <label for="benutzerid">Benutzer ID</label>
             <input name="benutzerid" required pattern="[a-z]{5}">
             <br>
-            <label for="rolle">Rolle</label>
-            <input list="rollenliste" name="browser">
-            <datalist id="rollenliste">
-                <option value="Gast">Gast</option>
-                <option value="Mitglied">Mitglied</option>
-                <option value="Vorstand">Vorstand</option>
-            </datalist>
-
+            <label for="rolle">Rolle</label>    
             <select name="Rollen">
                     <option value="Gast">Gast</option>
                     <option value="Mitglied">Mitglied</option>
                     <option value="Vorstand">Vorstand</option>
             </select>
 
-            <select>
-                <optgroup>
-                        <option value="Gast">Gast</option>
-                        <option value="Mitglied">Mitglied</option>
-                </optgroup>
-                <optgroup>
-                        <option value="Gast">Gast</option>
-                        <option value="Mitglied">Mitglied</option>
-                        <option value="Vorstand">Vorstand</option>
-                </optgroup>
-            </select>
+      
 
             <br>
+
+            <input type="reset">
             <input type="submit">
 
         </fieldset>
