@@ -18,16 +18,11 @@ fieldset label {
     width: 10em;
 }
 
-/* Nur für die */
-#login_area {
-    
-    label {
+/* Nur für die Anmeldemaske */
+center label,input {
 
         display: inline-block;
         width: 10em;
-    }
-
-
 }
 
 
@@ -102,7 +97,7 @@ footer {
 
     text-align: center;
     
-    background-color: rgb(189, 40, 92);
+    background-color: rgba(189, 40, 92, 0.397);
     position: fixed;
     bottom: 10px;
     left: 10px;

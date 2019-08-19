@@ -1,0 +1,81 @@
+<!DOCTYPE html> 
+
+<html>
+
+    <head>
+        <title>Mitgliederportal von Rotaract Dortmund</title>
+        <link rel="stylesheet" href="./css/header.css">
+       <link rel="stylesheet" href="./css/global.css">
+        <meta charset="utf-8">
+        
+    </head>
+    <body>
+    
+       <%- include("includes/header.ejs")  %> 
+
+        <div id="subnav">
+
+                <a href="admin_user" ><label>User</label></a>
+                <a href="admin_event"><label>Veranstaltungen</label></a>
+                <a href="admin_protocol"><label>Protokolle</label></a>
+        </div>
+
+        <form method="POST">
+
+        
+        <fieldset>
+            <legend>
+                Neues Protokoll
+            </legend>
+
+
+            <label for="Meetingsdatum" >Datum des Meetings</label>
+            <input type="date" id="Meetingsdatum" >
+            <br>
+
+            <label for="Meetingsleiter">Meetingsleiter</label>
+            <select id="Meetingsleiter">
+                    <option value="Bene">Bene</option>
+                    <option value="SCJ">SCJ</option>
+                    <option value="Magnus">Magnus Kleinschnittger</option>
+            </select>
+            <br>
+
+            <label for="Protokollant">Protokollant</label>
+            <select id="Protokollant">
+                    <option value="Bene">Bene</option>
+                    <option value="SCJ">SCJ</option>
+                    <option value="Magnus">Magnus Kleinschnittger</option>
+            </select>
+            <br>
+
+           <!--  <label for="internes_meeting">Intern</label> -->
+            <input type="radio" id="internes_meeting" value="Intern" name="meetingstyp">intern</input>
+            <!-- <label for="externes_meeting">Extern</label> -->
+            <input type="radio" id="externes_meeting" name="meetingstyp">extern
+            <br>
+
+            <label for="veranstaltungsort">Veranstaltungsort</label>
+            <input type="text" value="Overkamp" id="veranstaltungsort">
+            <br>
+
+            <label  for="protocol_upload">Protokollupload</label>
+            <form  method="POST" enctype="multipart/form-data">
+                <input type="file" id="protocol_upload" accept="application/pdf" >
+            </form>
+            <br>
+
+            <input type="submit">
+            <input type="reset">
+
+
+
+        </fieldset>
+
+    </form>
+
+        
+    <%- include("includes/footer.ejs")  %> 
+
+    </body>
+</html>
