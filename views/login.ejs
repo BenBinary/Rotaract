@@ -17,14 +17,23 @@
          </figure>   
 
 
-        <center>
+        <center id="login_area">
 
             <form method="POST" action="blub.php">
 
-                <p><label>Benutername</label> <input type="text" name="username" placeholder="mustermann"></p>
-                <p><label>Passwort</label> <input type="password" name="password" placeholder="password"> </p>
-                <p><input type="reset"> <input type="submit" value="Anmelden"></p>
+                
 
+                <label for="username">Benutername</label> 
+                <input type="text" name="username" placeholder="mustermann" id="username">
+                <br>
+                
+                <label for="pw">Passwort</label> 
+                <input type="password" name="password" placeholder="password" id="pw">
+                <br>
+
+                <input type="reset"> <input type="submit" value="Anmelden">
+
+            
             </form>
         </center>
     </body>

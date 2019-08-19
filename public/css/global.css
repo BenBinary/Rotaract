@@ -8,9 +8,28 @@ figure {
     
 }
 
-label {
+ label {
     padding: 15px;
 }
+
+fieldset label {
+
+    display: inline-block;
+    width: 10em;
+}
+
+/* Nur für die */
+#login_area {
+    
+    label {
+
+        display: inline-block;
+        width: 10em;
+    }
+
+
+}
+
 
 img {
 
