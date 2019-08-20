@@ -45,9 +45,11 @@ h3 {
 
 table {
 
+    border-radius: 10px;
     margin-left: auto;
     margin-right: auto; 
-    border-collapse: collapse;
+    border-collapse: separate;
+    border-spacing: 5px;
     border: 1px solid black;    
     background-color: rgba(189, 40, 92, 0.486);;
 }
@@ -57,6 +59,7 @@ th {
 }
 
 td {
+    border: 1px solid black;
     text-align: center;
     padding: 10px;
 }
@@ -65,17 +68,19 @@ thead {
     font-style: bold;
 }
 
-#publish_button {
-    
+
+input:valid {
+    background-color: green;
 }
 
+input:invalid {
+    background-color: red;
+}
 
-
+/* Färben der Mitglieder entsprechend */
 li:nth-child(even) {
 
      background-color: #bd285c5d ;
-
-
 }
 
 h2 { 
@@ -98,10 +103,11 @@ footer {
     text-align: center;
     
     background-color: rgba(189, 40, 92, 0.397);
-    position: fixed;
+    position: relative;
     bottom: 10px;
     left: 10px;
     right: 10px;
+    top: 10px;
     color: white;
 
 }

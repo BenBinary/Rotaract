@@ -9,7 +9,10 @@ header {
 
 h2 { 
     
-    grid-area: a1;
+    grid-area: a1; 
+    position: sticky;
+    top: 10px;
+    left: 10px;
     
 }
 
@@ -30,7 +33,12 @@ nav {
 }
 
 #userstate {
-    grid-area: a3;
+    
+     grid-area: a3;
+
+    position: sticky;
+    top: 10px;
+    right: 10px;
     color: #BD285C;
     font-weight: bolder;
 }

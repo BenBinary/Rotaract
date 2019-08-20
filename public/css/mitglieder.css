@@ -1,44 +1,5 @@
-nav {
+.mitglieder {
+
 
     display: flex;
-    flex-flow: row wrap;
-}
-
-#subnav {
-
-    display: flex;
-    flex-flow: row wrap;
-
-}
-
-nav a {
-
-    padding: 10px;
-}
-
-#subnav a {
-    padding: 10px;
-}
-
-@media screen and (max-width:480px) {
-    #logo {
-        display: none;
-    }
-}
-
-#mitglieder {
-
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    flex-flow: row wrap;
-
-}
-
-div div {
-
-    margin: 5px;
-    padding: 5px;
-    border-style: dashed;
-
 }
