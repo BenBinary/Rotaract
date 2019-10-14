@@ -37,6 +37,4 @@ app.use(function(req, res, next) {
 
 });
 
-app.listen(process.env.Port, function() {
-    console.log("Konsoloe lauscht auf Port 5400");
-});
+app.listen(process.env.PORT || 3000);
