@@ -70,11 +70,11 @@ thead {
 
 
 input:valid {
-    background-color: green;
+    /* background-color: green; */
 }
 
 input:invalid {
-    background-color: red;
+   /* background-color: red; */
 }
 
 /* Färben der Mitglieder entsprechend */
